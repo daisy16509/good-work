@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Golden Hour — Your Perfect Beach Day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="site-glow"></div>
+
+  <header class="floating-header" id="siteHeader">
+    <a class="mini-logo" href="#hero">golden hour</a>
+    <nav>
+      <a href="#places">places</a>
+      <a href="#activities">activities</a>
+      <a href="#pack">pack for me</a>
+    </nav>
+    <button class="trip-pill" id="tripPill">my day <span id="tripCount">0</span></button>
+  </header>
+
+  <main>
+    
+    <section class="hero" id="hero">
+      <div class="hero-sky"></div>
+      <div class="sun"></div>
+
+      <div class="golden-hour-mark">
+        <span>the</span>
+        <h1>GOLDEN HOUR</h1>
+        <br>
+        <h3>slow down • breathe in • make a memory</h3>
+      </div>
+
+      <div class="hero-bottom">
+        <p style="font-size: 200%;">one perfect day by the beach</p>
+        <a href="#places" class="scroll-cue" style="font-size: 150%;">start planning ↓</a>
+      </div>
+    </section>
+
+    
+    <section class="experience-section" id="places">
+      <div class="section-stage">
+        <div class="center-copy">
+          <span class="eyebrow" style="font-size: 100%;">step 01 / choose your view</span>
+          <h2>pick your<br><em>perfect day at</em></h2>
+          <p>Choose a beach, then let the rest of your day fall into place.</p>
+        </div>
+
+        <div class="scatter scatter-places">
+          <article class="image-card card-a beach-card" data-beach="Clifton Beach, Karachi">
+            <img src="https://i.pinimg.com/736x/1f/43/a3/1f43a3f8322a64455347c05741d02ebb.jpg" alt="Clifton Beach">
+            <span>clifton</span>
+          </article>
+
+          <article class="image-card card-b beach-card" data-beach="Hawke's Bay Beach">
+            <img src="https://i.pinimg.com/736x/b5/ab/81/b5ab819afaad255914361961dca281eb.jpg" alt="Hawke's Bay Beach">
+            <span>hawke's bay</span>
+          </article>
+
+          <article class="image-card card-c beach-card" data-beach="Sandspit Beach">
+            <img src="https://i.pinimg.com/736x/da/b7/ba/dab7ba49fe37bfe8c975110dbc8a443e.jpg" alt="Sandspit Beach">
+            <span>sandspit</span>
+          </article>
+
+          <article class="image-card card-d beach-card" data-beach="French Beach">
+            <img src="https://i.pinimg.com/736x/84/4c/4b/844c4bb32e056b4e142727d5b3064a22.jpg" alt="French Beach" style="size: 50px;">
+            <span>french beach</span>
+          </article>
+
+          <article class="image-card card-e beach-card" data-beach="Turtle Beach">
+            <img src="https://i.pinimg.com/736x/28/aa/a4/28aaa4936266ba8be5df1d8ba59c63ea.jpg" alt="Turtle Beach">
+            <span>turtle beach</span>
+          </article>
+
+          <article class="image-card card-f beach-card" data-beach="Mubarak Village Beach">
+            <img src="https://i.pinimg.com/1200x/5b/74/f9/5b74f9ef39278db301b41ddd17470541.jpg" alt="Mubarak Village Beach">
+            <span>mubarak village</span>
+          </article>
+
+          <article class="image-card card-g beach-card" data-beach="Bhit Khori Beach">
+            <img src="https://i.pinimg.com/736x/a8/d1/49/a8d1494459ca44c46a955e05001d0b69.jpg" alt="Bhit Khori Beach">
+            <span>bhit khori</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="experience-section activities-section" id="activities">
+      <div class="section-stage">
+        <div class="center-copy">
+          <span class="eyebrow" style="font-size: 100%;">step 02 / make it yours</span>
+          <h2>pick the things<br>that <em>excite you</em></h2>
+          <p>Pick as many little adventures as you like. Your day, your rhythm.</p>
+        </div>
+
+        <div class="scatter scatter-activities">
+          <article class="image-card activity-card act-a" data-activity="Beach Yoga" data-price="1200">
+            <img src="https://i.pinimg.com/736x/c4/cf/96/c4cf962135d2f3d4ca1976fa24b29ea1.jpg" alt="Beach Yoga">
+            <div><span>beach yoga</span><b>Rs. 1,200</b></div>
+          </article>
+          <article class="image-card activity-card act-b" data-activity="Beach Pilates" data-price="1500">
+            <img src="https://i.pinimg.com/736x/bd/c6/3f/bdc63f4f08e8a97fdc937659984b3f90.jpg" alt="Beach Pilates">
+            <div><span>beach pilates</span><b>Rs. 1,500</b></div>
+          </article>
+          <article class="image-card activity-card act-c" data-activity="Sunset Meditation" data-price="1000">
+            <img src="https://i.pinimg.com/736x/08/4d/79/084d79c69dc1aef258cc307635997e0e.jpg" alt="Sunset Meditation">
+            <div><span>sunset meditation</span><b>Rs. 1,000</b></div>
+          </article>
+          <article class="image-card activity-card act-d" data-activity="Jet Skiing" data-price="4500">
+            <img src="https://i.pinimg.com/736x/84/6a/28/846a280fffd4289fca1e85b43b862062.jpg" alt="Jet Skiing">
+            <div><span>jet skiing</span><b>Rs. 4,500</b></div>
+          </article>
+          <article class="image-card activity-card act-e" data-activity="Scuba Diving" data-price="6500">
+            <img src="https://i.pinimg.com/736x/c2/4b/b9/c24bb924ba47895b9e780a655f623c54.jpg" alt="Scuba Diving">
+            <div><span>scuba diving</span><b>Rs. 6,500</b></div>
+          </article>
+          <article class="image-card activity-card act-f" data-activity="Snorkeling" data-price="3500">
+            <img src="https://i.pinimg.com/1200x/cb/03/47/cb0347cc46c81a4b4ee3072687030d85.jpg" alt="Snorkeling">
+            <div><span>snorkeling</span><b>Rs. 3,500</b></div>
+          </article>
+          <article class="image-card activity-card act-g" data-activity="Speed Boating" data-price="5000">
+            <img src="https://i.pinimg.com/736x/ab/26/85/ab2685c04615646b3dc35f09418a3924.jpg" alt="Speed Boating">
+            <div><span>speed boating</span><b>Rs. 5,000</b></div>
+          </article>
+          <article class="image-card activity-card act-h" data-activity="Banana Boat Rides" data-price="2800">
+            <img src="https://i.pinimg.com/736x/45/c1/a4/45c1a421716af1aa8bedddcf0699cd36.jpg" alt="Banana Boat Rides">
+            <div><span>banana boat</span><b>Rs. 2,800</b></div>
+          </article>
+          <article class="image-card activity-card act-i" data-activity="Flyboarding" data-price="6000">
+            <img src="https://i.pinimg.com/736x/2f/69/90/2f69904c2deba1ba6106827d14380cba.jpg" alt="Flyboarding">
+            <div><span>flyboarding</span><b>Rs. 6,000</b></div>
+          </article>
+          <article class="image-card activity-card act-j" data-activity="Shell Painting" data-price="900">
+            <img src="https://i.pinimg.com/1200x/a8/b7/0a/a8b70ab574bbcd0134eedffb70e8668e.jpg" alt="Shell Painting">
+            <div><span>shell painting</span><b>Rs. 900</b></div>
+          </article>
+          <article class="image-card activity-card act-k" data-activity="Sandcastle Sculpting" data-price="800">
+            <img src="https://i.pinimg.com/1200x/34/29/d1/3429d1d62e65e334da3e2f49e096855f.jpg" alt="Sandcastle Sculpting">
+            <div><span>sandcastle sculpting</span><b>Rs. 800</b></div>
+          </article>
+          <article class="image-card activity-card act-l" data-activity="Driftwood Crafting" data-price="1100">
+            <img src="https://i.pinimg.com/736x/53/72/f9/5372f9ef7c4fc82a16e7640569e465cc.jpg" alt="Driftwood Crafting">
+            <div><span>driftwood crafting</span><b>Rs. 1,100</b></div>
+          </article>
+          <article class="image-card activity-card act-m" data-activity="Camel Riding" data-price="1800">
+            <img src="https://i.pinimg.com/736x/e2/71/21/e27121875458d612ffd12551355d7cb0.jpg" alt="Camel Riding">
+            <div><span>camel riding</span><b>Rs. 1,800</b></div>
+          </article>
+          <article class="image-card activity-card act-n" data-activity="Horse Riding" data-price="2200">
+            <img src="https://i.pinimg.com/736x/b6/f7/5a/b6f75a6eeeff4583ea411bad2c7c99cd.jpg" alt="Horse Riding">
+            <div><span>horse riding</span><b>Rs. 2,200</b></div>
+          </article>
+          <article class="image-card activity-card act-o" data-activity="ATV Quad Biking" data-price="4000">
+            <img src="https://i.pinimg.com/736x/2d/57/3b/2d573b7fdf8494c8f9c7f21c802bc336.jpg" alt="ATV Quad Biking">
+            <div><span>atv quad biking</span><b>Rs. 4,000</b></div>
+          </article>
+          <article class="image-card activity-card act-p" data-activity="Beach Buggying" data-price="3500">
+            <img src="https://i.pinimg.com/736x/12/7f/77/127f77100b6be8c93442850383c5f936.jpg" alt="Beach Buggying">
+            <div><span>beach buggying</span><b>Rs. 3,500</b></div>
+          </article>
+          <article class="image-card activity-card act-q" data-activity="Night Bonfires" data-price="2500">
+            <img src="https://i.pinimg.com/736x/d0/6b/06/d06b06ba72087756c8d385e6a6f4ef0b.jpg" alt="Night Bonfires">
+            <div><span>night bonfire</span><b>Rs. 2,500</b></div>
+          </article>
+          <article class="image-card activity-card act-r" data-activity="Beachside BBQ" data-price="3000">
+            <img src="https://i.pinimg.com/736x/c0/23/98/c02398fd4ec4c0c891d1dc3b9524ea9c.jpg" alt="Beachside BBQ">
+            <div><span>beachside bbq</span><b>Rs. 3,000</b></div>
+          </article>
+        </div>
+
+        <button class="floating-action" id="chooseActivities">book my activities →</button>
+      </div>
+    </section>
+
+    <section class="slot-section" id="slot">
+      <div class="slot-wrap">
+        <div>
+          <span class="eyebrow" style="font-size: 100%;">step 03 / find your rhythm</span>
+          <h2>when does your<br><em>perfect day</em> begin?</h2>
+          <br>
+          <p>Choose one slot for your beach experience.</p>
+        </div>
+        <div class="slot-grid" id="slotGrid"></div>
+      </div>
+    </section>
+
+
+    <section class="experience-section pack-section" id="pack">
+      <div class="section-stage">
+        <div class="center-copy">
+          <span class="eyebrow" style="font-size: 100%;">step 04 / no overthinking</span>
+          <h2>forgot something?<br><em>let me pack for you</em></h2>
+          <p>We'll have your beach-day essentials waiting when you arrive.</p>
+        </div>
+
+        <div class="scatter scatter-pack">
+          <article class="image-card pack-card pack-a" data-item="Swimwear" data-price="3500">
+            <img src="https://i.pinimg.com/1200x/4d/b4/a2/4db4a24918fb85356ae30065d15d8d4d.jpg" alt="Swimwear">
+            <span>swimwear · Rs. 3,500</span>
+          </article>
+          <article class="image-card pack-card pack-b" data-item="Flip-flops" data-price="1200">
+            <img src="https://i.pinimg.com/736x/56/8a/f5/568af53b7cca2530bf5c24b594085e9f.jpg" alt="Flip-flops">
+            <span>flip-flops · Rs. 1,200</span>
+          </article>
+          <article class="image-card pack-card pack-c" data-item="Sun Hat" data-price="1800">
+            <img src="https://i.pinimg.com/736x/4b/54/c9/4b54c9b8136701a49f05ddadde27fd59.jpg" alt="Sun Hat">
+            <span>sun hat · Rs. 1,800</span>
+          </article>
+          <article class="image-card pack-card pack-d" data-item="Sunglasses" data-price="2200">
+            <img src="https://i.pinimg.com/1200x/09/f6/89/09f689dac200296080a6f7831af3def4.jpg" alt="Sunglasses">
+            <span>sunglasses · Rs. 2,200</span>
+          </article>
+          <article class="image-card pack-card pack-e" data-item="Sunscreen SPF 30+" data-price="1600">
+            <img src="https://i.pinimg.com/736x/aa/b1/33/aab133d8750bf258ae1b230e8b346172.jpg" alt="Sunscreen">
+            <span>sunscreen · Rs. 1,600</span>
+          </article>
+          <article class="image-card pack-card pack-f" data-item="Lip Balm with SPF" data-price="700">
+            <img src="https://i.pinimg.com/736x/15/56/f1/1556f1179bed7fa19b0a6fee604b191b.jpg" alt="Lip Balm">
+            <span>lip balm · Rs. 700</span>
+          </article>
+          <article class="image-card pack-card pack-g" data-item="Aloe Vera Gel" data-price="900">
+            <img src="https://i.pinimg.com/736x/12/32/da/1232dab8659b1bda6c9327740a2010aa.jpg" alt="Aloe Vera Gel">
+            <span>aloe vera · Rs. 900</span>
+          </article>
+          <article class="image-card pack-card pack-h" data-item="Wet Wipes" data-price="450">
+            <img src="https://i.pinimg.com/1200x/8c/e6/5a/8ce65a1c111b672db3f8f6514b7251a5.jpg" alt="Wet Wipes">
+            <span>wet wipes · Rs. 450</span>
+          </article>
+          <article class="image-card pack-card pack-i" data-item="Beach Towel" data-price="1800">
+            <img src="https://i.pinimg.com/1200x/20/5c/27/205c27c8c28d08c2e683040074bff877.jpg" alt="Beach Towel">
+            <span>beach towel · Rs. 1,800</span>
+          </article>
+          <article class="image-card pack-card pack-j" data-item="Beach Blanket" data-price="2800">
+            <img src="https://i.pinimg.com/736x/8c/fd/90/8cfd90a8c8e32a48b1dcd8cc88bdcfb6.jpg" alt="Beach Blanket">
+            <span>beach blanket · Rs. 2,800</span>
+          </article>
+          <article class="image-card pack-card pack-k" data-item="Umbrella / Tent" data-price="4500">
+            <img src="https://i.pinimg.com/736x/e6/58/64/e658643c485dcda7274f02a365ef5654.jpg" alt="Beach Umbrella">
+            <span>umbrella · Rs. 4,500</span>
+          </article>
+          <article class="image-card pack-card pack-l" data-item="Beach Chairs" data-price="3000">
+            <img src="https://i.pinimg.com/1200x/8c/73/a7/8c73a7083444859af20082262b9edd2f.jpg" alt="Beach Chairs">
+            <span>beach chairs · Rs. 3,000</span>
+          </article>
+          <article class="image-card pack-card pack-m" data-item="Mesh Beach Bag" data-price="1700">
+            <img src="https://i.pinimg.com/736x/51/f0/a1/51f0a1859124135d63e0fdb98252a6ae.jpg" alt="Mesh Beach Bag">
+            <span>mesh beach bag · Rs. 1,700</span>
+          </article>
+          <article class="image-card pack-card pack-n" data-item="Waterproof Wet Bag" data-price="1400">
+            <img src="https://i.pinimg.com/1200x/e8/be/08/e8be08f36308350c309c230a6ed70db2.jpg" alt="Waterproof Wet Bag">
+            <span>wet bag · Rs. 1,400</span>
+          </article>
+          <article class="image-card pack-card pack-o" data-item="Water Bottle" data-price="1000">
+            <img src="https://i.pinimg.com/736x/1c/0a/33/1c0a331451c02d59750cde11adbc8059.jpg" alt="Water Bottle">
+            <span>water bottle · Rs. 1,000</span>
+          </article>
+          <article class="image-card pack-card pack-p" data-item="Beach Toys" data-price="1300">
+            <img src="https://i.pinimg.com/736x/44/e7/e4/44e7e4c32079e093beaa98edca9f93c0.jpg" alt="Beach Toys">
+            <span>beach toys · Rs. 1,300</span>
+          </article>
+        </div>
+
+        <button class="floating-action" id="checkoutButton">continue to checkout →</button>
+      </div>
+    </section>
+
+    
+    <section class="checkout-section" id="checkout">
+      <div class="checkout-card">
+        <span class="eyebrow" style="font-size: 100%;">step 05 / almost there</span>
+        <h2>save your<br><em>perfect day</em></h2>
+        <div class="summary" id="summary"></div>
+
+        <label>card number
+          <input id="cardNumber" type="text" inputmode="numeric" maxlength="19" placeholder="0000 0000 0000 0000">
+        </label>
+        <div class="two-inputs">
+          <label>expiry <input id="expiry" type="text" maxlength="5" placeholder="MM/YY"></label>
+          <label>CVV <input id="cvv" type="password" maxlength="4" placeholder="•••"></label>
+        </div>
+        <button class="pay-button" id="payButton">book my golden hour ✦</button>
+        <small class="secure-note">demo checkout · no real payment is processed</small>
+      </div>
+    </section>
+
+    <section class="success-section" id="success">
+      <div class="success-sun"></div>
+      <span class="eyebrow" style="font-size: 100%;">your day is waiting</span>
+      <h2>hope you have a<br><em>relaxing & perfect day</em></h2>
+      <p>Bring your favourite people. We'll take care of the little things.</p>
+      <div class="memory-note">
+        <span style="font-size: larger;">golden hour memory</span>
+        <strong id="finalBeach" style="font-size: 200%;">your beach</strong>
+        <small id="finalDetails" style="font-size: larger;">your activities · your time</small>
+      </div>
+      <a href="#hero" class="back-home" style="font-size: 150%;">start another perfect day ↗</a>
+    </section>
+  </main>
+
+  <div class="modal" id="locationModal">
+    <div class="modal-card">
+      <button class="close-modal">×</button>
+      <div class="modal-image"><img id="modalBeachImage" src="" alt=""></div>
+      <span class="eyebrow">your chosen escape</span>
+      <h3 id="modalBeachName"></h3>
+      <p>Sea breeze, warm light and a whole day made around you.</p>
+      <button class="select-button" id="selectBeach">select this beach →</button>
+    </div>
+  </div>
+
+  <aside class="trip-drawer" id="tripDrawer">
+    <button class="close-drawer" id="closeDrawer">×</button>
+    <span class="eyebrow">your golden hour</span>
+    <h3>my perfect day</h3>
+    <div id="drawerContent"></div>
+  </aside>
+
+  <script src="script.js"></script>
+  <script>
+  let lastX = 0;
+  let lastY = 0;
+  let isLeftFoot = true;
+  const stepDistance = 40; // Minimum distance (pixels) traveled before dropping a footprint
+
+  document.addEventListener('mousemove', function(e) {
+    // Calculate how far the mouse has moved since the last footprint
+    const distance = Math.hypot(e.clientX - lastX, e.clientY - lastY);
+
+    if (distance > stepDistance) {
+      createFootprint(e.clientX, e.clientY);
+      lastX = e.clientX;
+      lastY = e.clientY;
+    }
+  });
+
+  function createFootprint(x, y) {
+    const foot = document.createElement('div');
+    foot.classList.add('footprint');
+    
+    // Alternate between left and right classes
+    foot.classList.add(isLeftFoot ? 'left' : 'right');
+    isLeftFoot = !isLeftFoot;
+
+    // Center the footprint on the cursor location
+    foot.style.left = (x - 10) + 'px';
+    foot.style.top = (y - 10) + 'px';
+
+    document.body.appendChild(foot);
+
+    // Trigger the fade-out effect and remove the element from the DOM
+    setTimeout(() => {
+      foot.style.opacity = '0';
+      foot.style.transform = 'scale(0.8)';
+    }, 50);
+
+    setTimeout(() => {
+      foot.remove();
+    }, 1050); // Matches the 1s CSS transition time
+  }
+</script>
+
+</body>
+</html>
